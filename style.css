@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(159, 129, 129);
+}
+
+h1, h2{
+    color: white;
+}
+
+.header {
+    height: fit-content;
+
+    #game-title, #condition{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.button-container {
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 16px;
+
+    #Rock, #Paper, #Scissors{
+        cursor: pointer;
+        font-weight: 500;
+        border: 0;
+        padding: 12px 24px;
+        line-height: 1.25;
+        font-size: 16px;
+    } 
+}
+
+.result-container {
+    border: 1px pink solid;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #p1 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+}
+
+.player {
+    display: flex;
+    gap: 25px;
+}
